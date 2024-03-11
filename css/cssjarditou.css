@@ -1,0 +1,64 @@
+#tete{
+        display: flex;
+        align-items: center;
+    }
+#images{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+}
+#text{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 65%;
+}
+p {
+    font-family: Arial, "Times New Roman", sans-serif;
+ }
+ul { 
+    border: 30px black solid;
+    display: flex;
+    background: black;
+    text-align: right;
+}
+a {
+    color: white;margin: 5px;
+}
+#parent {
+    border: 0px;
+    display: flex;
+    padding:5px;
+    height: auto;
+}
+.child{
+    border: 0cap hidden;
+    display: inline-block;
+}
+
+#CD {
+    border : lightgray solid inherit;
+    background-color: lightgray;
+    display: flex;
+    flex: 30%;
+}
+article {
+    display: flex;
+    flex: 70%;
+}
+form {
+    display: flex;
+    width: 500px;
+    height: auto;
+
+}
+table {
+    border: 1px black solid;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+th, td {
+    border: 1px solid black;
+}

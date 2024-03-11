@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarditou</title>
+    <link rel="stylesheet" href="css/cssjarditou.css">
+    <link rel="stylesheet" href="css/media.css">
+<body>
+    <header>
+        <div id="tete">
+            <img src="img/jarditou_logo.jpg" alt="jarditou" title="jarditou" id="images"><br>
+            <h3 id="text">La qualité depuis 70 ans<h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Jarditou.html" title="Accueil">Acueil</a></li>
+                <li><a href="tableauxHTLM.html" title="Tableau brabecue">Tableau</a></li>
+                <li><a href="concatc.html" title="concatc">Contact</a></li>
+            </ul>
+        </nav>
+        <img width="100%" src="img/promotion.jpg" alt="bannierejarditou" title="bannierejarditou">
+    </header>
+    <div id="parent">
+    <article class="child">
+    <h3>Formulaire de concact:</h3>
+    <form action="http://bienvu.net/script.php" method="get">
+        <fieldset>
+            <p>*C'est zones sont obligatoires</p>
+            <fieldset>
+                <legend>Vos Coordonnées</legend>
+                <label for="Nom">Nom*:</label><input type="text" name="nom" id="Nom" required><br>
+                <label for="Prénom">Prénom*:</label><input type="text" name="Email" id="Prénom" required ><br>
+                <br>
+                <label for="Sexe">Sexe*:</label><input type="radio" name="Sexe" required>Féminin<input type="radio" name="Sexe" id="Sexe">Masculin<br>
+                <br>
+                <label for="date">Date de naissance :</label><input type="date" name="ddn" id="date" required><br>
+                <label for="cp">Code Postal :</label><input type="text" name="CodePostal" id="cp" required><br>
+                <label for="Adresse">Adresse :</label><input type="text" name="Adresse" id="Adresse" required><br>
+                <label for="ville">Ville :</label><input type="text" name="ville" id="ville" required><br>
+                <label for="Email">Email :</label><input type="text" name="Email" value="@gmai.com" id="Email" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Votre demande</legend>
+                <label for="Sujet">Sujet*:</label>
+                <select id="Sujet" required>
+                    <option value="" selected>Veuillez selectionner un produit</option>
+                    <option value="Mescommandes">Mes commandes</option>
+                    <option value="Questionsurunproduit"> Question sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autre">Autres</option>
+                </select><br>
+                <label for="Demande">Votre question*:</label><textarea name="Demande" rows="4" cols="50" id="Demande" required></textarea>
+            </fieldset>
+            <br>
+            <input type="checkbox" name="case" required><label>* J'accepte le traitement informatique de ce formulaire.</label><br>
+            <br>
+            <input type="submit" value="Envoyer"><input type="reset" value="Annuler">
+        </fieldset>
+    </form>
+    </article>
+    <div id="CD" class="child">[colonne Droite]</div>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="fin.html" title="rick">Mention Légales</a></li>
+                <li><a href="fin.html" title="rick">Horaires</a></li>
+                <li><a href="fin.html" title="rick">Plan du site</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
