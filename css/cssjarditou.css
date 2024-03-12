@@ -48,16 +48,16 @@ article {
 }
 form {
     display: flex;
-    width: 500px;
+    flex: 50%;
     height: auto;
 
 }
 table {
     border: 1px black solid;
-    display: inline-block;
+    right: auto;
+    width: auto;
     text-align: center;
     vertical-align: middle;
-    flex-wrap: wrap;
 }
 th, td {
     border: 1px solid black;

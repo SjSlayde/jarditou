@@ -4,8 +4,7 @@
     { 
         font-size : auto; 
     } 
-} 
-
+}
 @media screen and (max-width: 768px) 
 { 
     html
@@ -19,11 +18,33 @@
         {
             font-size: auto;
             }
-        }
+
         img 
 {
      max-width: 100%;
      height: auto;
+}
+article {
+    max-width: 100%;
+}
+table
+{
+    overflow: scroll;
+    max-width: 100%;
+}
+ul {
+    max-width: 100%;
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+}
+label {
+    max-width: 100%;
+}
+fieldset{
+    max-width: 100%;
+}
 }
 
 a[title=rick]
@@ -33,4 +54,6 @@ a[title=rick]
     text-align: left;
     align-items: center; 
 }
-
+thead, tbody{
+    max-width: 100%;
+}
