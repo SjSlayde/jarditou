@@ -1,15 +1,36 @@
 @media screen and (max-width: 576px) 
 { 
-    h1 
+    html 
     { 
-        font-size : 20px; 
+        font-size : auto; 
     } 
 } 
 
 @media screen and (max-width: 768px) 
 { 
-    h1 
+    html
     { 
-        font-size : 40px; 
+        font-size : auto; 
     } 
 }  
+@media screen and (max-width: 926px) 
+{
+    html 
+        {
+            font-size: auto;
+            }
+        }
+        img 
+{
+     max-width: 100%;
+     height: auto;
+}
+
+a[title=rick]
+{
+    display: flex;
+    left: 30px;
+    text-align: left;
+    align-items: center; 
+}
+
