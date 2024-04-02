@@ -28,38 +28,38 @@
     <div id="parent">
     <article class="child">
     <h3>Formulaire de concact:</h3>
-    <form action="http://bienvu.net/script.php" method="get">
+    <form id="form" action="http://bienvu.net/script.php" method="get">
         <fieldset>
             <p>*C'est zones sont obligatoires</p>
             <fieldset>
                 <legend>Vos Coordonnées</legend>
-                <label for="Nom">Nom*:</label><input type="text" name="nom" id="Nom" required><br>
-                <label for="Prénom">Prénom*:</label><input type="text" name="Email" id="Prénom" required ><br>
+                <label for="Nom">Nom*:</label><input type="text" name="nom" id="Nom" ><br>
+                <label for="Prénom">Prénom*:</label><input type="text" name="Email" id="Prenom"><br>
                 <br>
-                <label for="Sexe">Sexe*:</label><input type="radio" name="Sexe" required>Féminin<input type="radio" name="Sexe" id="Sexe">Masculin<br>
+                <label for="Sexe">Sexe*:</label><input id="Sexe" type="radio" name="Sexe" >Féminin<input id="Sexe2" type="radio" name="Sexe">Masculin<br>
                 <br>
-                <label for="date">Date de naissance :</label><input type="date" name="ddn" id="date" required><br>
-                <label for="cp">Code Postal :</label><input type="text" name="CodePostal" id="cp" required><br>
-                <label for="Adresse">Adresse :</label><input type="text" name="Adresse" id="Adresse" required><br>
-                <label for="ville">Ville :</label><input type="text" name="ville" id="ville" required><br>
-                <label for="Email">Email :</label><input type="text" name="Email" value="@gmai.com" id="Email" required><br>
+                <label for="date">Date de naissance :</label><input type="date" name="ddn" id="date"><br>
+                <label for="cp">Code Postal :</label><input type="text" name="CodePostal" id="cp"><br>
+                <label for="Adresse">Adresse :</label><input type="text" name="Adresse" id="Adresse"><br>
+                <label for="ville">Ville :</label><input type="text" name="ville" id="ville"><br>
+                <label for="Email">Email :</label><input type="text" name="Email" value="@gmai.com" id="Email"><br>
             </fieldset>
             <fieldset>
                 <legend>Votre demande</legend>
                 <label for="Sujet">Sujet*:</label>
-                <select id="Sujet" required>
-                    <option value="" selected>Veuillez selectionner un produit</option>
+                <select id="Sujet">
+                    <option id="choix" value="" selected>Veuillez selectionner un produit</option>
                     <option value="Mescommandes">Mes commandes</option>
                     <option value="Questionsurunproduit"> Question sur un produit</option>
                     <option value="Réclamation">Réclamation</option>
                     <option value="Autre">Autres</option>
                 </select><br>
-                <label for="Demande">Votre question*:</label><textarea name="Demande" rows="4" cols="30" id="Demande" required></textarea>
+                <label for="Demande">Votre question*:</label><textarea name="Demande" rows="4" cols="30" id="Demande"></textarea>
             </fieldset>
             <br>
-            <input type="checkbox" name="case" required><label>* J'accepte le traitement informatique de ce formulaire.</label><br>
+            <input id="validition" type="checkbox" name="case" ><label>* J'accepte le traitement informatique de ce formulaire.</label><br>
             <br>
-            <input type="submit" value="Envoyer"><input type="reset" value="Annuler">
+            <button type="submit">Soumettre</button><input type="reset" value="Annuler">
         </fieldset>
     </form>
     </article>
@@ -74,7 +74,7 @@
             </ul>
         </nav>
     </footer>
-
+<script src="js/Contact.js"></script>
 </body>
 
 </html>
